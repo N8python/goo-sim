@@ -4,7 +4,7 @@ function genGoo(beadSize){
   //Variables
   canvas = document.getElementById("gooLand");
   ctx = canvas.getContext("2d")
-  beadSize = 5;
+  beadSize = beadSize;
   beadList = []
   width = canvas.width;
   height = canvas.height;
@@ -86,6 +86,6 @@ window.onload = function() {
   genGoo(5)
 }();
 function gooUp(){
-    genGoo(newSize)
+    genGoo(5)
 
 }
